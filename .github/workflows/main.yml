@@ -7,6 +7,6 @@ on:
 jobs:
   test:
     name: Hello world
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world!"
